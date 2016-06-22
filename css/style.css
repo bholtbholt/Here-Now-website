@@ -1,0 +1,94 @@
+/*
+$red: #FF4451;
+$darkRed: #E62B38;
+*/
+
+/* Bootstrap Overrides ================== */
+body{
+  font-family:"Roboto",Verdana,Geneva,sans-serif;
+  color: #fff;
+  background-color: #FF4451;
+}
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
+  font-family:"Roboto",Verdana,Geneva,sans-serif;
+  font-weight:700;
+}
+a {color: #fff}
+a:hover, a:focus {color: #fff;text-decoration: underline}
+.form-control:focus {border-color: #fff}
+.btn {
+  color: #fff;
+  border: 2px solid #fff;
+  background-color: transparent;
+  padding: 6px 24px;
+}
+.btn-lg {padding: 10px; width: 100%;}
+.btn:hover, .btn:focus {
+  background-color:#fff;
+  color:#FF4451;
+  -o-transition:background-color .2s ease-in, color .2s ease-in;
+  -ms-transition:background-color .2s ease-in, color .2s ease-in;
+  -moz-transition:background-color .2s ease-in, color .2s ease-in;
+  -webkit-transition:background-color .2s ease-in, color .2s ease-in;
+  transition:background-color .2s ease-in, color .2s ease-in;
+}
+.popover-content {color: #777}
+@media (min-width:1200px){.container{width:970px}}
+
+
+/* Common elements ======================= */
+.h1-lg {
+  font-size:3.6em;
+  margin-bottom: 20px;
+}
+.h2-lg {
+  font-size: 1.4em;
+  margin-bottom: 24px;
+  font-weight: 400;
+}
+@media (min-width: 768px) {
+  .h1-lg {
+    font-size: 5.8em;
+  }
+  .h2-lg {
+    font-size: 2.4em;
+  }
+}
+@media (min-width: 992px) {
+  .h1-lg {
+    font-size:6.6em;
+    margin-bottom: 30px;
+  }
+  .h2-lg {
+    font-size: 3em;
+  }
+}
+.white-bg {background-color: #fff; color: #777}
+
+/* Sections ============================== */
+section {padding: 10px 0 20px}
+#top {font-size: 16px}
+#top p {margin-bottom: 16px}
+#top form {margin-top: 20px}
+.main-image {height: 70%; float: right;}
+#exactly-one-email {
+  cursor: pointer;
+  white-space: nowrap;
+  text-decoration: underline;
+}
+span[id^="city-switcher-"] {
+  white-space: nowrap;
+}
+@media (min-width: 992px) {
+  #top form { margin-top: 50px}
+}
+@media(min-height: 720px) {
+  section {padding: 60px 0}
+}
+
+.map {
+  position: absolute;
+  top: -28%;
+  right: -28%;
+  width: 100%;
+}

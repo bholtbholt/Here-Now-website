@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html><head>
+	<title>hereNow</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Everything to do, all in one place">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link rel="apple-touch-icon" href="favicon.png" type="image/png" />
+</head>
+<body>
+<img class="hidden-xs map" src="images/map.svgz">
+<img class="hidden-xs map" src="images/map-victoria.svgz" id="map-switcher-1">
+<img class="hidden-xs map" src="images/map-vancouver.svgz" id="map-switcher-2">
+<img class="hidden-xs map" src="images/map-seattle.svgz" id="map-switcher-3">
+<img class="hidden-xs map" src="images/map-portland.svgz" id="map-switcher-4">
+<img class="hidden-xs map" src="images/map-sanFran.svgz" id="map-switcher-5">
+<img class="hidden-xs map" src="images/map-austin.svgz" id="map-switcher-6">
+<img class="hidden-xs map" src="images/map-toronto.svgz" id="map-switcher-7">
+<img class="hidden-xs map" src="images/map-edmonton.svgz" id="map-switcher-8">
+<section id="top">
+	<div class="container">		
+		<div class="row">
+			<div class="col-sm-8">
+				<h1 class="h1-lg">so long<br/>lame night</h1>
+				<h2 class="h2-lg">
+					things to do in 
+					<span id="city-switcher-1">Victoria</span>
+					<span id="city-switcher-2">Vancouver</span>
+					<span id="city-switcher-3">Seattle</span>
+					<span id="city-switcher-4">Portland</span>
+					<span id="city-switcher-5">San Fran</span>
+					<span id="city-switcher-6">Austin</span>
+					<span id="city-switcher-7">Toronto</span>
+					<span id="city-switcher-8">Edmonton</span>
+				</h2>
+				<p>
+					Finding things to do should be simple and spontaneous. We hate hunting through the social medias or every single website in the entire world for something fun to do, and thought you probably hated that too. That's why we're making hereNow, a free mobile app with everything to do, all in one place.
+				</p>
+				<p>
+					Add your email to our reservation list and you'll receive <a id="exactly-one-email" data-container="body" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="Seriously: just one. We'd rather go out and do something fun than fill up your inbox with emails.">exactly one message</a> from us when hereNow is ready in your city.
+				</p>
+			</div>
+		</div>
+		<div class="row text-center">
+			<form id="email-signup-form" method="post" role="form">
+			  <div class="form-group col-sm-4">
+			    <label class="sr-only" for="email-signup">Your Email Address</label>
+			    <input id="email-signup" type="email" class="form-control input-lg" placeholder="Your Email Address" required>
+			  </div>
+			  <div class="form-group col-sm-4">
+			    <label class="sr-only" for="city-signup">Your City</label>
+			    <input id="city-signup" type="text" class="form-control input-lg" placeholder="Your City">
+			  </div>
+			  <div class="col-sm-4">
+			  	<button id="signup-button" type="submit" class="btn btn-lg">Make Your Reservation</button>
+			  </div>
+			</form>
+		</div>
+	</div>
+</section>
+
+<!--<section class="white-bg">
+Wow. Much to do. Very Victoria.
+Living in Victoria is rad. There's a buzzing music scene, a vibrant arts community, barrels of delicious craft beers, random festivals hidden throughout the city, and nearly everything in walking distance. hereNow puts it all in one place so you know what's up.
+
+All-knowing. Ultra-cool.
+It's near-impossible to keep track of everything going on. And a total bummer hearing you missed out on the best thing ever, yesterday. hereNow is your bud, your bestie, your unpretentious hipster friend who keeps you in the loop.
+
+Find what you like, quick.
+Planning is the pits. No one wants to waste time trying to make something happen. Lets skip all that boring stuff and get straight to the good times. hereNow keeps you fresh and spontaneous, while only showing you what you're into—whatever that may be.
+
+What it's really all about.
+Rather than spend the night watching a movie with her over-cuddly cat, my girlfriend and I wanted to find something cool to do. It was the weekend, how hard could it be to find entertainment? Answer: we watched a movie.
+During the following week1 I built hereNow so we could find something fun to do on the weekend. We heard about the best thing ever and had the best time ever2 and lived happily ever after3. The end.
+1: Not actual timeline. 2: Fun forever. 3: Broke up.
+</section>-->
+
+<script defer src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script defer src="js/bootstrap.min.js"></script>
+<script defer src="js/script.js"></script>
+</body>
+</html>
